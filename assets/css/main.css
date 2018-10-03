@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../../images/wall.png);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif; }
+
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#40ac64), to(#d35f5f));
+  background-image: -webkit-linear-gradient(left, #40ac64, #d35f5f);
+  background-image: -o-linear-gradient(left, #40ac64, #d35f5f);
+  background-image: linear-gradient(to right, #40ac64, #d35f5f);
+  color: #fff;
+  top: 50%;
+  left: 20%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 5px; }
+  .loginbox h1 {
+    padding: 0 0 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 22px; }
+  .loginbox form p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold; }
+  .loginbox form input {
+    margin-bottom: 20px;
+    width: 100%; }
+    .loginbox form input[type="text"], .loginbox form input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 16px; }
+    .loginbox form input[type="submit"] {
+      outline: none;
+      background: #f85151;
+      color: #fff;
+      border: none;
+      height: 40px;
+      font-size: 18px;
+      border-radius: 20px;
+      -webkit-transition: all .2s;
+      -o-transition: all .2s;
+      transition: all .2s; }
+    .loginbox form input[type="submit"]:hover {
+      cursor: pointer;
+      background-image: -webkit-gradient(linear, right top, left top, from(#40ac64), to(#d35f5f));
+      background-image: -webkit-linear-gradient(right, #40ac64, #d35f5f);
+      background-image: -o-linear-gradient(right, #40ac64, #d35f5f);
+      background-image: linear-gradient(to left, #40ac64, #d35f5f);
+      border-bottom: outset; }
+  .loginbox form a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #362727; }
+  .loginbox form a:hover {
+    color: #742727; }
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px); }
